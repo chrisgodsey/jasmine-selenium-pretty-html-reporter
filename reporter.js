@@ -78,14 +78,14 @@ class Reporter {
             this.currentSpec.duration = new Date(this.currentSpec.stopped) - new Date(this.currentSpec.started);
             this.currentSpec.prefix = this.currentSpec.fullName.replace(this.currentSpec.description, '');
 
-            browser.takeScreenshot()
+            driver.takeScreenshot()
                 .then((png) => {
                     this.currentSpec.base64screenshot = png;
                 })
-                .then(browser.getCapabilities)
+                .then(driver.getCapabilities)
                 .then((capabilities) => {
                     this.currentSpec.browserName = capabilities.get('browserName');
-                    return browser.manage().logs().get('browser');
+                    return driver.manage().logs().get('browser');
                 })
                 .then((browserLogs) => {
                     this.currentSpec.browserLogs = browserLogs;
