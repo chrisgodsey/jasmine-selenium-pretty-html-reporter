@@ -111,7 +111,11 @@ class Reporter {
         // Handle screenshot saving
         if (this.currentSpec.status !== "disabled" && this.currentSpec.status !== "pending" && (this.currentSpec.status !== 'passed' || this.options.screenshotOnPassed)) {
             this.currentSpec.screenshotPath = `img/${process.pid}-${this.counts.specs}.png`;
-            this.writeImage(this.currentSpec.base64screenshot);
+
+            // Only attempts to save the screenshot if one was successfully taken.
+            if (this.currentSpec.base64screenshot) {
+                this.writeImage(this.currentSpec.base64screenshot);
+            }
         }
 
         // remove this from the payload that is written to report.html;
