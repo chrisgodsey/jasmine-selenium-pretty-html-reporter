@@ -1,8 +1,8 @@
 # jasmine selenium pretty html reporter
-[![Build Status](https://travis-ci.org/stuisme/protractor-pretty-html-reporter.svg?branch=master)](https://travis-ci.org/stuisme/protractor-pretty-html-reporter)
-[![Latest Version](https://img.shields.io/github/tag/stuisme/protractor-pretty-html-reporter.svg)](https://github.com/stuisme/protractor-pretty-html-reporter)
-[![NPM Version](https://img.shields.io/npm/v/protractor-pretty-html-reporter.svg)](https://npmjs.org/package/protractor-pretty-html-reporter)
-[![NPM Monthly Downloads](https://img.shields.io/npm/dm/protractor-pretty-html-reporter.svg)](https://npmjs.org/package/protractor-pretty-html-reporter)
+[![Build Status](https://travis-ci.org/chrisgodsey/jasmine-selenium-pretty-html-reporter.svg?branch=master)](https://travis-ci.org/chrisgodsey/jasmine-selenium-pretty-html-reporter)
+[![Latest Version](https://img.shields.io/github/tag/chrisgodsey/protractor-pretty-html-reporter.svg)](https://github.com/chrisgodsey/jasmine-selenium-pretty-html-reporter)
+[![NPM Version](https://img.shields.io/npm/v/jasmine-selenium-pretty-html-reporterr.svg)](https://npmjs.org/package/jasmine-selenium-pretty-html-reporter)
+[![NPM Monthly Downloads](https://img.shields.io/npm/dm/jasmine-selenium-pretty-html-reporter.svg)](https://npmjs.org/package/jasmine-selenium-pretty-html-reporter)
 
 
 ```
