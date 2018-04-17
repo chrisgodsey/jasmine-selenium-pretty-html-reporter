@@ -1,6 +1,6 @@
 {
   "name": "jasmine-selenium-pretty-html-reporter",
-  "description": "an easy to use html page for looking at jasmine test results",
+  "description": "an easy to use html page for looking at jasmine test results utilizing selenium webdriver",
   "author": "chrisgodsey",
   "main": "index.js",
   "version": "0.0.15",
