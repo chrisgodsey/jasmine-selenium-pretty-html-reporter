@@ -3,7 +3,7 @@
   "description": "an easy to use html page for looking at jasmine test results utilizing selenium webdriver",
   "author": "chrisgodsey",
   "main": "index.js",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "keywords": [
     "jasmine",
     "protractor",
